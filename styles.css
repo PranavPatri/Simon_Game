@@ -1,0 +1,95 @@
+body {
+  text-align: center;
+  background-color: #AFD3E2;
+  margin: 0;
+}
+
+footer {
+  background-color: #19A7CE;
+  margin-bottom: 0;
+}
+
+p {
+  color: orangered;
+  text-shadow: 2px 2px black;
+  font-family: 'Audiowide', cursive;
+  font-size: 1.5rem;
+  text-align: right;
+  padding-right: 2%;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 2%;
+  padding-bottom: 1%;
+}
+
+p:hover {
+  color: #E5F9DB;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2rem;
+  margin: 2% auto 0;
+  color: #146C94;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: 5px auto 0;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 150px;
+  width: 150px;
+  border: 10px solid #6db0cf;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: lime;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: #F0FF42;
+}
+
+.pressed {
+  box-shadow: 0 0 20px goldenrod;
+  background-color: #A2A378;
+}
+
+
+@media (max-width: 1024px) {
+  p {
+    font-size: 2.5rem;
+    padding: 20%;
+  }
+}
+
+nav {
+  background-color: #64bed7;
+  text-shadow: 2px 2px black;
+  text-align: left;
+  font-family: 'Audiowide', cursive;
+  font-size: 1.75rem;
+  padding: 1% 2%;
+  margin:  0 auto;
+  color: orangered;
+}
